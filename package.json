@@ -1,0 +1,27 @@
+{
+  "name": "3d_mode_with_mark_ar_js",
+  "version": "1.0.0",
+  "description": "3d on mark",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NovikovaNS/3d_mode_with_mark_AR_JS.git"
+  },
+  "keywords": [
+    "ar.js",
+    "3d"
+  ],
+  "author": "novikovans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NovikovaNS/3d_mode_with_mark_AR_JS/issues"
+  },
+  "homepage": "https://github.com/NovikovaNS/3d_mode_with_mark_AR_JS#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

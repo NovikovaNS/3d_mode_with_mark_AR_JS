@@ -1,0 +1,12 @@
+### Node template
+package-lock.json
+
+# Dependency directories
+node_modules/
+
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
