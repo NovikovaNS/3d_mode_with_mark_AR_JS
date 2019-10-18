@@ -1,0 +1,417 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        106.65731811523438,
+        45.992042541503906,
+        93.269935607910156
+      ],
+      "min": [
+        0,
+        10.15882682800293,
+        11.542819976806641
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24516,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        0.9999811053276062,
+        0.99984413385391235,
+        0.99999475479125977
+      ],
+      "min": [
+        -0.9997439980506897,
+        -0.99876070022583008,
+        -0.99999916553497314
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        1,
+        0.99998623132705688,
+        0.99951577186584473,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99999922513961792,
+        -0.99662691354751587,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        0.998291015625,
+        0.99316400289535522
+      ],
+      "min": [
+        0.0021969999652355909,
+        0.0039059999398887157
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5592,
+      "max": [
+        2042
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49032,
+      "componentType": 5126,
+      "count": 1032,
+      "max": [
+        74.01507568359375,
+        55.120590209960938,
+        92.093162536621094
+      ],
+      "min": [
+        19.285663604736328,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 61416,
+      "componentType": 5126,
+      "count": 1032,
+      "max": [
+        0.99999916553497314,
+        0.91972190141677856,
+        0.99999797344207764
+      ],
+      "min": [
+        -0.99999922513961792,
+        -0.99844932556152344,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32688,
+      "componentType": 5126,
+      "count": 1032,
+      "max": [
+        0.99998980760574341,
+        0.99975746870040894,
+        0.99999117851257324,
+        1
+      ],
+      "min": [
+        -0.99998974800109863,
+        -0.99999803304672241,
+        -0.99881285429000854,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16344,
+      "componentType": 5126,
+      "count": 1032,
+      "max": [
+        0.99585002660751343,
+        0.98803699016571045
+      ],
+      "min": [
+        0.0043950001709163189,
+        0.011230000294744968
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 22368,
+      "componentType": 5125,
+      "count": 2718,
+      "max": [
+        1031
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "peedr0o0 (https://sketchfab.com/peedr0o0)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/09864d35875b414ab85d7d7ca80a4e72",
+      "title": "Kingdom Hearts- Donald Duck Halloween Town"
+    },
+    "generator": "Sketchfab-3.18.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 33240,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24600,
+      "byteOffset": 33240,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73800,
+      "byteOffset": 57840,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49200,
+      "byteOffset": 131640,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 180840,
+      "uri": "kingdom_hearts-_donald_duck_halloween_town.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/default_material_texture000.png_emissive.png"
+    },
+    {
+      "uri": "textures/default_material_texture000.png_baseColor.png"
+    },
+    {
+      "uri": "textures/default_material_texture001.png_emissive.png"
+    },
+    {
+      "uri": "textures/default_material_texture001.png_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "default_material_texture000.png",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 2,
+        "texCoord": 0
+      },
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "default_material_texture001.png",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -53.327472686767578,
+        -29.012136459350586,
+        -1.1000000085914508e-05,
+        1
+      ],
+      "name": "Halloween_Donald.obj.cleaner.gles"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
+
