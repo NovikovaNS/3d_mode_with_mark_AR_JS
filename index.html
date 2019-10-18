@@ -26,6 +26,7 @@
 
   <body style="margin: 0px; overflow:hidden;">
     <a-scene embedded arjs="trackingMethod:best; sourceType: webcam; debugUIEnabled: false;">
+      <!-- GLTF -->
       <a-marker id="marker-skull" type='pattern' url='/marks/skull.patt'>
         <a-entity
           gltf-model="url(/gltf/stack_of_skulls/stack_of_skulls.gltf)"
@@ -41,6 +42,64 @@
           rotation="0 90 -90"/>
         </a-entity>
       </a-marker>
+      <a-marker id="marker-moon" type='pattern' url='/marks/moon.patt'>
+        <a-entity
+          gltf-model="url(/gltf/halloween_cat_and_pumpkin/halloween_cat_and_pumpkin.gltf)"
+          position="0 0.5 0"
+          scale="0.04 0.04 0.04"
+          rotation="-100 0 0"/>
+        </a-entity>
+      </a-marker>
+      <a-marker id="marker-pumpkin-1" type='pattern' url='/marks/pumpkin-1.patt'>
+        <a-entity
+          gltf-model="url(/gltf/halloween_pumpkin_with_hat/halloween_pumpkin_with_hat.gltf)"
+          position="0 0.5 0"
+          scale="6 6 6"
+          rotation="-90 0 0"/>
+        </a-entity>
+      </a-marker>
+      <a-marker id="marker-happy_halloween" type='pattern' url='/marks/happy-halloween.patt'>
+        <a-entity
+          gltf-model="url(/gltf/happy_halloween/happy_halloween.gltf)"
+          position="0 0.5 0"
+          scale="0.01 0.01 0.01"
+          rotation="-60 0 0"/>
+        </a-entity>
+      </a-marker>
+      <a-marker id="marker-alien" type='pattern' url='/marks/alien.patt'>
+        <a-entity
+          gltf-model="url(/gltf/head_of_cthulhu/head_of_cthulhu.gltf)"
+          position="0 50 0"
+          scale="0.01 0.01 0.01"
+          rotation="-60 0 0"/>
+        </a-entity>
+      </a-marker>
+      <a-marker id="marker-duck" type='pattern' url='/marks/duck.patt'>
+        <a-entity
+          gltf-model="url(/gltf/kingdom_hearts-_donald_duck_halloween_town/kingdom_hearts-_donald_duck_halloween_town.gltf)"
+          position="0 0.5 0"
+          scale="0.03 0.03 0.03"
+          rotation="-90 0 0"/>
+        </a-entity>
+      </a-marker>
+      <a-marker id="marker-rip" type='pattern' url='/marks/rip.patt'>
+        <a-entity
+          gltf-model="url(/gltf/pumpkin/pumpkin.gltf)"
+          position="0 0.5 0"
+          scale="0.6 0.6 0.6"
+          rotation="-90 0 0"/>
+        </a-entity>
+      </a-marker>
+      <a-marker id="marker-kotel" type='pattern' url='/marks/kotel.patt'>
+        <a-entity
+          gltf-model="url(/gltf/witchs_table/witchs_table.gltf)"
+          position="0 0.5 0"
+          scale="0.003 0.003 0.003"
+          rotation="-90 0 0"/>
+        </a-entity>
+      </a-marker>
+
+      <!-- OBJ -->
       <a-marker id="marker-cat" type='pattern' url='/marks/cat.patt'>
         <a-obj-model mtl="objs/robot-cat-high-poly/robot_cat_sketchfab.mtl"
           position="0 0 0"
@@ -49,7 +108,6 @@
           rotation="300 0 0">
         </a-obj-model>
       </a-marker>
-
       <a-entity camera></a-entity>
     </a-scene>
   </body>
