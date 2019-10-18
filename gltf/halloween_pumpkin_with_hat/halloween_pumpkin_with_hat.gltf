@@ -1,0 +1,262 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 26348,
+      "max": [
+        0.52989912033081055,
+        0.49520683288574219,
+        0.800010085105896
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 316176,
+      "componentType": 5126,
+      "count": 26348,
+      "max": [
+        0.99993038177490234,
+        0.99998044967651367,
+        0.99999886751174927
+      ],
+      "min": [
+        -0.99999958276748657,
+        -0.99996542930603027,
+        -0.99994981288909912
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 26348,
+      "max": [
+        0.99972176551818848,
+        0.99998724460601807,
+        0.99984681606292725,
+        1
+      ],
+      "min": [
+        -0.99999707937240601,
+        -0.99992543458938599,
+        -0.99999362230300903,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 26348,
+      "max": [
+        0.67932999134063721,
+        0.99804002046585083
+      ],
+      "min": [
+        0.0019499999471008778,
+        0.0019499999471008778
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 139446,
+      "max": [
+        26347
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "zaxel (https://sketchfab.com/zaxel)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/models/4e3b0f9152d5479295c5f4bc77c03ada",
+      "title": "Halloween Pumpkin with Hat"
+    },
+    "generator": "Sketchfab-3.19.4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 557784,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 210784,
+      "byteOffset": 557784,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632352,
+      "byteOffset": 768568,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 421568,
+      "byteOffset": 1400920,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1822488,
+      "uri": "halloween_pumpkin_with_hat.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/defaultMat_baseColor.jpg"
+    },
+    {
+      "uri": "textures/defaultMat_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "name": "defaultMat",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.84999999999999998,
+        "roughnessFactor": 0.42999999999999999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.25824454426765442,
+        -0.23191158473491669,
+        -0.32595622539520264,
+        1
+      ],
+      "name": "PumpkinWithHat.OBJ.cleaner.gles"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
