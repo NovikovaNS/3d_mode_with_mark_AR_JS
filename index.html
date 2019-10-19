@@ -30,13 +30,13 @@
       <a-marker id="marker-skull" type='pattern' url='/marks/skull.patt'>
         <a-entity
           gltf-model="url(/gltf/stack_of_skulls/stack_of_skulls.gltf)"
-          position="0 0 0"
-          rotation="0 90 -90"/>
+          position="-3 0 0"
+          rotation="-90 0 0"/>
         </a-entity>
       </a-marker>
       <a-marker id="marker-pumpkin" type='pattern' url='/marks/pumpkin.patt'>
         <a-entity
-          gltf-model="url(/gltf/skeleton_walking_animation/skeleton_walking_animation.gltf)"
+          gltf-model="url(/gltf/pumpkin_halloween/pumpkin_halloween.gltf)"
           position="0 0.5 0"
           scale="0.04 0.04 0.04"
           rotation="0 90 -90"/>
@@ -50,7 +50,7 @@
           rotation="-100 0 0"/>
         </a-entity>
       </a-marker>
-      <a-marker id="marker-pumpkin-1" type='pattern' url='/marks/pumpkin-1.patt'>
+      <a-marker id="marker-hat" type='pattern' url='/marks/hat.patt'>
         <a-entity
           gltf-model="url(/gltf/halloween_pumpkin_with_hat/halloween_pumpkin_with_hat.gltf)"
           position="0 0.5 0"
@@ -66,10 +66,18 @@
           rotation="-60 0 0"/>
         </a-entity>
       </a-marker>
+      <a-marker id="marker-happy_halloween" type='pattern' url='/marks/cat_in_kotel.patt'>
+        <a-entity
+          gltf-model="url(/gltf/cat_pumpkin/cat_pumpkin.gltf)"
+          position="0 0 0"
+          scale="0.5 0.5 0.5"
+          rotation="0 0 0"/><!-- rotation="0 -90 90" -->
+        </a-entity>
+      </a-marker>
       <a-marker id="marker-alien" type='pattern' url='/marks/alien.patt'>
         <a-entity
           gltf-model="url(/gltf/head_of_cthulhu/head_of_cthulhu.gltf)"
-          position="0 50 0"
+          position="0 0.5 0"
           scale="0.01 0.01 0.01"
           rotation="-60 0 0"/>
         </a-entity>
@@ -84,9 +92,9 @@
       </a-marker>
       <a-marker id="marker-rip" type='pattern' url='/marks/rip.patt'>
         <a-entity
-          gltf-model="url(/gltf/pumpkin/pumpkin.gltf)"
+          gltf-model="url(/gltf/skeleton_walking_animation/skeleton_walking_animation.gltf)"
           position="0 0.5 0"
-          scale="0.6 0.6 0.6"
+          scale="0.5 0.5 0.5"
           rotation="-90 0 0"/>
         </a-entity>
       </a-marker>
@@ -102,6 +110,7 @@
         <a-entity
           gltf-model="url(/gltf/monster/monster.gltf)"
           position="0 0.5 0"
+          scale="0.09 0.09 0.09"
           rotation="-90 0 0"/>
         </a-entity>
       </a-marker>
