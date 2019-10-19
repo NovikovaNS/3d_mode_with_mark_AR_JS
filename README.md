@@ -1,5 +1,6 @@
 ## 3d_mode_with_mark_AR_JS
 AR.js Marker Training - https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+github - https://github.com/jeromeetienne/AR.js/blob/master/README.md#Get-Started
 
 # gltf
 - cat_in_kotel.patt - cat_pumpkin
@@ -15,4 +16,4 @@ AR.js Marker Training - https://jeromeetienne.github.io/AR.js/three.js/examples/
 - kotel.patt - witchs_table
 
 # objs
-- cat.patt - robot_cat_sketchfab.obj
+- cat.patt - robot_cat_sketchfab
